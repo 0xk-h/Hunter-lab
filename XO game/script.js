@@ -31,6 +31,7 @@ function clicked(box,i){
         return;
     }
     box.innerHTML = currplay;
+
     curr[i] = currplay;
     options--;
     if (win()){
@@ -51,9 +52,9 @@ function win(){
         b3 = winRule[i][2];
         if (curr[b1] === curr[b2] && curr[b2] === curr[b3] && curr[b3] === currplay){
             msg.innerHTML = `${currplay} Won!`
-            cells[b1].style.color = "yellow";
-            cells[b2].style.color = "yellow";
-            cells[b3].style.color = "yellow";
+            cells[b1].style.color = "blue";
+            cells[b2].style.color = "blue";
+            cells[b3].style.color = "blue";
             running = false;
             return 1;
         }
