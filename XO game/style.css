@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: #000000ea;
+    font-family: "Permanent Marker", cursive;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+h3{
+    font-size: 30px;
+    padding: 20px;
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: auto;
+}
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px none white;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: rgb(58, 25, 159);
+    font-size: 50px;
+    cursor: pointer;
+}
+button{
+    background-color: red;
+    margin-top: 30px;
+    size: 50px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+#turn{
+    display: none;
+}
+#result{
+    display: none;
+}
