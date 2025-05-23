@@ -31,6 +31,7 @@ h3{
     background-color: rgb(95, 96, 103);
     font-size: 50px;
     cursor: pointer;
+    border-radius: 10px;
 }
 button{
     background-color: red;
@@ -41,6 +42,7 @@ button{
     padding-left: 20px;
     padding-right: 20px;
     cursor: pointer;
+    border-radius: 14px;
 }
 #result{
     display: none;
