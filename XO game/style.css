@@ -7,12 +7,12 @@ body{
     color: white;
 }
 h1{
-    font-size: 50px;
-    padding: 20px;
+    font-size: 40px;
+    padding: 10px;
 }
 h3{
     font-size: 30px;
-    padding: 20px;
+    padding: 5px;
 }
 .board{
     display: grid;
@@ -28,7 +28,7 @@ h3{
     border: 1px none white;
     min-height: 100px;
     min-width: 100px;
-    background-color: rgb(58, 25, 159);
+    background-color: rgb(95, 96, 103);
     font-size: 50px;
     cursor: pointer;
 }
@@ -41,9 +41,6 @@ button{
     padding-left: 20px;
     padding-right: 20px;
     cursor: pointer;
-}
-#turn{
-    display: none;
 }
 #result{
     display: none;
