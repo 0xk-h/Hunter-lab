@@ -45,7 +45,6 @@ function clicked(box,i){
     msg.innerHTML = `${currplay}'s Turn`
 }
 function win(){
-    console.log(curr);
     for(let i = 0;i < winRule.length;i++){
         b1 = winRule[i][0];
         b2 = winRule[i][1];
