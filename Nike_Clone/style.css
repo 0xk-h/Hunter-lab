@@ -1,0 +1,11 @@
+.c-red {
+    color : red;
+    display: inline-block;
+    padding: 10px;
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 100px;
+
+}
