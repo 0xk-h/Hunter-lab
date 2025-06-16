@@ -10,7 +10,7 @@ This is where I explore new ideas, build small apps, and clone simple projects t
 
 | # | Project Name | Description | Link |
 |---|--------------|-------------|------|
-| 1 | XO Game | A simple tic-tac-toe game built with basic HTML, CSS, and JavaScript | [View](./xo-game) |
+| 1 | XO Game | A simple tic-tac-toe game built with basic HTML, CSS, and JavaScript | [View](./XO%20game) |
 
 <!-- Add more projects below as you build -->
 
