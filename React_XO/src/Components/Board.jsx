@@ -1,17 +1,15 @@
 import Tile from "./Tile.jsx";
 
-const Board = () => {
+const Board = ({ tiles, onClick }) => {
   return (
     <div className="grid grid-cols-3 grid-rows-3 gap-2 m-4" >
-        <Tile />
-        <Tile />
-        <Tile />
-        <Tile />
-        <Tile />
-        <Tile />
-        <Tile />
-        <Tile />
-        <Tile />
+      {tiles.map((tile,index) => 
+        <Tile
+          key={index}
+          value={tile}
+          onClick={() => onClick(index)}
+        />
+      )}
     </div>
   )
 }
