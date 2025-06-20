@@ -11,7 +11,7 @@ const App = () => {
   const [currPlayer, setCurrPlayer] = useState("X");
   const [winner, setWinner] = useState("");
   const [isDraw, setIsDraw] = useState(false);
-  const [winningTiles, setWinningTiles] = useState(["","",""])
+  const [winningTiles, setWinningTiles] = useState([])
 
   const handleTileClick = (index) => {
     if (tiles[index] || winner) {
@@ -25,7 +25,7 @@ const App = () => {
     if (gameWinner === 0) {
       setIsDraw(true);
     } else if (gameWinner) {
-      setWinner(tiles[gameWinner[0]]);
+      setWinner(newTiles[gameWinner[0]]);
       setWinningTiles(gameWinner);
     } else {
       setCurrPlayer(currPlayer === "X" ? "O" : "X")
@@ -36,7 +36,7 @@ const App = () => {
     setCurrPlayer("X");
     setWinner("");
     setIsDraw(false);
-    setWinningTiles(["","",""])
+    setWinningTiles([]);
   }
   return (
     <div className="bg-gradient-to-br from-gray-900 to-purple-950 h-screen w-screen flex justify-center items-center flex-col">
