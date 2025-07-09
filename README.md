@@ -1,4 +1,4 @@
-# 🛠️ Practice Playground
+# 🛠️ Hunter Lab
 
 Welcome to my personal practice repository!
 
