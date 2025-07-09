@@ -10,8 +10,8 @@ This is where I explore new ideas, build small apps, and clone simple projects t
 
 | # | Project Name | Description | Link |
 |---|--------------|-------------|------|
-| 1 | XO Game | A simple tic-tac-toe game built with basic HTML, CSS, and JavaScript | [View](./XO%20game) |
-| 2 | React XO | Same thing with updated ui using React | [View](./React_XO) |
+| 1 | Vanilla-TicTacToe | A simple tic-tac-toe game built from scratch | [View](./XO%20game) |
+| 2 | React-TicTacToe | Same cleaner ui, centralized logic and reusable components | [View](./React_XO) |
 
 
 <!-- Add more projects below as you build -->
