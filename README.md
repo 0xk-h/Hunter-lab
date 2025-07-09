@@ -18,6 +18,15 @@ This is where I explore new ideas, build small apps, and clone simple projects t
 
 ---
 
+## 🔧 Setup
+
+Most projects are self-contained, but depending on the folder:
+
+- React: `npm install && npm start`
+- Vanilla: Open `index.html` directly
+
+---
+
 ## 🧰 Tech Stack
 
 Projects here may include:
