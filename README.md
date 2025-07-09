@@ -22,7 +22,7 @@ This is where I explore new ideas, build small apps, and clone simple projects t
 
 Most projects are self-contained, but depending on the folder:
 
-- React: `npm install && npm start`
+- React: `npm install && npm run dev`
 - Vanilla: Open `index.html` directly
 
 ---
