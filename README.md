@@ -8,7 +8,7 @@ This is where I explore new ideas, build small apps, and clone simple projects t
 
 ## 📁 Project List
 
-| # | Project Name | Description | Link |
+| # | Project Name | Description | Source code |
 |---|--------------|-------------|------|
 | 1 | Vanilla-TicTacToe | A simple tic-tac-toe game built from scratch | [View](Vanilla/TicTacToe) |
 | 2 | React-TicTacToe | Same thing with cleaner ui, centralized logic and reusable components | [View](React/TicTacToe) |
