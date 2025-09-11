@@ -1,43 +1,87 @@
-# 🛠️ Hunter Lab
+# Hunter Lab 🧪
 
-Welcome to my personal practice repository!
+Welcome to **Hunter Lab** — my personal collection of **mini-projects, experiments, and scripts**.  
+This isn’t a polished monorepo, but more of a **sandbox** where I learn, test ideas, and build small things that don’t need a repo of their own.
 
-This is where I explore new ideas, build small apps, and clone simple projects to sharpen my skills. Most of these are for learning purposes and aren't production-grade.
-
----
-
-## 📁 Project List
-
-| # | Project Name | Description | Source code |
-|---|--------------|-------------|------|
-| 1 | Vanilla-TicTacToe | A simple tic-tac-toe game built from scratch | [View](Vanilla/TicTacToe) |
-| 2 | React-TicTacToe | Same thing with cleaner ui, centralized logic and reusable components | [View](React/TicTacToe) |
-
-
-<!-- Add more projects below as you build -->
+The structure may change at any time, so treat this repo as a **living archive of experiments**.
 
 ---
 
-## 🔧 Setup
+## 🌟 Highlights
 
-Most projects are self-contained, but depending on the folder:
-
-- React: `npm install && npm run dev`
-- Vanilla: Open `index.html` directly
-
----
-
-## 🧰 Tech Stack
-
-Projects here may include:
-- HTML, CSS, JavaScript
-- React.js
-- Tailwind CSS
-- Node.js (as needed)
+- 🎮 **Mini Games** → Tic Tac Toe (React & Vanilla), sliders, and more
+- ⚡ **Scripts** → Utilities for quick automation or testing
+- 🎨 **UI Experiments** → Animations, styling experiments, and small frontend builds
+- 🧑‍💻 **Playground** → Where I try out frameworks, libraries, and new tech
 
 ---
 
-## 📌 Notes
+## 📂 Current Layout
 
-- This is my personal sandbox for practice.
-- Feel free to explore the code, but it's not meant to be perfect or production-ready.
+> ⚠️ Subject to change — I move things around often!
+
+- **React/** → Mini React-based projects (e.g. TicTacToe with components and hooks)
+- **Vanilla/** → Vanilla JS/HTML/CSS builds (e.g. Infinite Slider, TicTacToe)
+- **scripts/** → Handy scripts (small tools, wrappers, experiments)
+- **public/** → Shared/static assets (images, test resources, etc.)
+
+---
+
+## 🚀 How to Run
+
+### 🖥️ Web Projects (React/Vanilla)
+
+```bash
+# Clone the repo
+git clone https://github.com/kishore399/Hunter-lab.git
+cd Hunter-lab
+
+# Go to a project folder, e.g. React/TicTacToe
+cd React/TicTacToe
+
+# Install dependencies if package.json exists
+npm install
+
+# Run locally
+npm run dev
+```
+
+### ⚙️ Scripts
+
+```bash
+cd scripts
+
+# Example for Node.js scripts
+node myscript.js
+```
+
+## 🔄 Philosophy
+
+This repo is like a **sketchbook for code**:
+
+- Some projects are **complete mini-apps**
+- Others are **half-finished experiments**
+- Some are just **quick scripts** I wanted to save
+
+It’s not about polish, but about **learning, experimenting, and iterating**.
+
+---
+
+## 🛠️ Tech Stack I Often Use
+
+- **Frontend** → React, Vanilla JS, HTML, CSS, Tailwind
+- **Build Tools** → Vite, npm, Node.js
+- **Scripting** → JavaScript (Node.js)
+
+---
+
+## 📜 License
+
+MIT — Feel free to explore, reuse snippets, or learn from them.
+
+---
+
+## 🙌 Note
+
+If you stumble upon something broken, unfinished, or oddly placed — that’s normal.  
+This is **my lab**, and labs are messy, experimental, and always changing ⚡
