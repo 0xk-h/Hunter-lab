@@ -7,16 +7,16 @@ The structure may change at any time, so treat this repo as a **living archive o
 
 ---
 
-## 🌟 Highlights
+## Highlights
 
-- 🎮 **Mini Games** → Tic Tac Toe (React & Vanilla), sliders, and more
-- ⚡ **Scripts** → Utilities for quick automation or testing
-- 🎨 **UI Experiments** → Animations, styling experiments, and small frontend builds
-- 🧑‍💻 **Playground** → Where I try out frameworks, libraries, and new tech
+- **Mini Games** → Tic Tac Toe (React & Vanilla), sliders, and more
+- **Scripts** → Utilities for quick automation or testing
+- **UI Experiments** → Animations, styling experiments, and small frontend builds
+- **Playground** → Where I try out frameworks, libraries, and new tech
 
 ---
 
-## 📂 Current Layout
+## Current Layout
 
 > ⚠️ Subject to change — I move things around often!
 
@@ -27,9 +27,9 @@ The structure may change at any time, so treat this repo as a **living archive o
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 🖥️ Web Projects (React/Vanilla)
+### Web Projects (React/Vanilla)
 
 ```bash
 # Clone the repo
@@ -46,7 +46,7 @@ npm install
 npm run dev
 ```
 
-### ⚙️ Scripts
+### Scripts
 
 ```bash
 cd scripts
@@ -55,7 +55,7 @@ cd scripts
 node myscript.js
 ```
 
-## 🔄 Philosophy
+## Philosophy
 
 This repo is like a **sketchbook for code**:
 
@@ -67,7 +67,7 @@ It’s not about polish, but about **learning, experimenting, and iterating**.
 
 ---
 
-## 🛠️ Tech Stack I Often Use
+## Tech Stack I Often Use
 
 - **Frontend** → React, Vanilla JS, HTML, CSS, Tailwind
 - **Build Tools** → Vite, npm, Node.js
@@ -81,7 +81,7 @@ MIT — Feel free to explore, reuse snippets, or learn from them.
 
 ---
 
-## 🙌 Note
+## Note
 
 If you stumble upon something broken, unfinished, or oddly placed — that’s normal.  
 This is **my lab**, and labs are messy, experimental, and always changing ⚡

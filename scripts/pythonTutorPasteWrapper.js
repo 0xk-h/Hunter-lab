@@ -49,11 +49,11 @@
   function attachPasteHandler() {
     const aceInput = document.querySelector(".ace_text-input");
     if (!aceInput || !window.ace) {
-      console.log("⏳ Waiting for Ace...");
+      console.log("Waiting for the Editor...");
       return false;
     }
 
-    console.log("✅ Found Ace input, attaching paste handler");
+    console.log("Found input field, attaching paste handler");
 
     const editor = ace.edit(document.querySelector(".ace_editor"));
 
@@ -64,15 +64,12 @@
       const text = data.getData("text");
       if (!text) return;
 
-      console.log(
-        "📋 Paste detected:",
-        text.slice(0, 80).replace(/\n/g, "\\n")
-      );
+      console.log("Paste detected:");
 
       const wrapped = transformCode(text);
 
       if (wrapped === text.trim()) {
-        console.log("ℹ️ Snippet detected, allowing normal paste");
+        console.log("Allowing normal paste");
         return;
       }
 
@@ -82,7 +79,7 @@
       editor.setValue(wrapped, -1);
       editor.focus();
 
-      console.log("✨ Wrapped code injected into Ace editor");
+      console.log("Wrapped code and injected into editor");
     });
 
     return true;
